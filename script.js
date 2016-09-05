@@ -72,6 +72,12 @@ menunew: {
 				} 
 				//return bot.say('outside OK')
 			} else if (LBOTMSG == "tweets") {
+			var feed = require('feed-read'),  // require the feed-read module
+			urls = [
+			"https://zapier.com/engine/rss/1617716/hanszed-tw1"
+			
+			]; // Example RSS Feeds
+	
 	
 					return bot.say("TWEET TWEET")
 				}
